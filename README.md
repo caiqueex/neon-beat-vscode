@@ -1,7 +1,7 @@
 # Neon Beat '80 - VS Code theme
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/8368079/173425376-f88c3296-96de-4c47-9129-8bc738bdad24.png" height="400" />
+  <img src="https://user-images.githubusercontent.com/8368079/173427806-1834b616-6448-4694-ad90-7d815daad97d.png" height="400" />
 </p>
 
 Going back to almost '80 and seeing flame light, neon beat and neon vibes like dark light... Right, here we are coding in neon beat vibes.
