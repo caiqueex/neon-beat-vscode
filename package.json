@@ -1,0 +1,35 @@
+{
+  "name": "neon-beat",
+  "displayerName": "Neon Beat '80",
+  "description": "A Neon Beat inspired colour theme to throwback you to '80 neon vibes",
+  "version": "0.0.4",
+  "author": "Caique Lourenço",
+  "publisher": "caiqueex",
+  "icon": "assets/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caiqueex/neon-beat-vscode"
+  },
+  "keywords": ["theme", "neon", "neon-vibes", "vibe", "caique", "beatstars"],
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Neon Beat 80'",
+        "uiTheme": "vs-dark",
+        "path": "./themes/neon-beat.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package --no-yarn",
+    "publish": "vsce publish --no-yarn"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vsce": "^2.9.1"
+  }
+}
