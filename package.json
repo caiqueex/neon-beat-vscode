@@ -1,35 +1,58 @@
 {
-  "name": "neon-beat",
-  "displayerName": "Neon Beat '80",
-  "description": "A Neon Beat inspired colour theme to throwback you to '80 neon vibes",
-  "version": "0.0.5",
-  "author": "Caique Lourenço",
-  "publisher": "caiqueex",
-  "icon": "assets/icon.png",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/caiqueex/neon-beat-vscode"
-  },
-  "keywords": ["theme", "neon", "neon-vibes", "vibe", "caique", "beatstars"],
-  "engines": {
-    "vscode": "^1.22.0"
-  },
-  "categories": ["Themes"],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Neon Beat 80'",
-        "uiTheme": "vs-dark",
-        "path": "./themes/neon-beat.json"
+	"name": "neon-beat",
+	"version": "0.0.1",
+	"displayName": "Neon Beat '80",
+	"homepage": "https://allburn.tech.com/",
+	"description": "A Neon Beat inspired colour theme to throwback you to '80 neon vibes",
+	"publisher": "caiqueex",
+	"license": "MIT",
+	"maintainers": [
+		"Caique Lourenço <caiquee@msn.com>"
+	],
+	"contributors": [],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/caiqueex/neon-beat-vscode.git"
+	},
+	"bugs": {
+		"url": "https://github.com/caiqueex/neon-beat-vscode/issues"
+	},
+	"engines": {
+		"vscode": "^1.22.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"neon",
+		"dark",
+		"theme",
+		"color-theme"
+	],
+	"icon": "assets/icon.png",
+	"galleryBanner": {
+		"color": "#3c4555",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "'80 Neon Vibes",
+				"uiTheme": "vs-dark",
+				"path": "./theme/neon-beat.json"
+			},
+			{
+				"label": "'80 Neon Vibes - Fluor",
+				"uiTheme": "vs-dark",
+				"path": "./theme/neon-beat-fluor.json"
+			}
+		]
+	},
+    "scripts": {
+        "package": "vsce package --no-yarn",
+        "publish": "vsce publish --no-yarn"
+      },
+      "devDependencies": {
+        "vsce": "^2.9.1"
       }
-    ]
-  },
-  "scripts": {
-    "package": "vsce package --no-yarn",
-    "publish": "vsce publish --no-yarn"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "vsce": "^2.9.1"
-  }
 }
