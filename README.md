@@ -22,6 +22,19 @@ we have two types of theme colors in one theme: **'80 Neon Vibes** and **'80 Neo
 
 __Vibrant colors and easy to see function and other principal stuffs in red neon color.__
 
+HOW TO RUN
+
+- edit neon-beat-*.json
+
+- change version in package.json
+
+- in terminal type: yarn package
+
+- it will generate a file *.vsix
+
+- so, open https://marketplace.visualstudio.com/manage and send .vsix file to update with new version
+
+
 CONFIGURATION
 
 - to choose one of then, please, press (Windows System) CONTROL + SHIFT + P -> type COLOR THEME -> then select '80 Neon Vibes or '80 Neon Vibes - Fluor in the list.
