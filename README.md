@@ -10,14 +10,15 @@ we need to all be on beat vibes, like brazilians says "na balada"
 
 we have two types of theme colors in one theme: **'80 Neon Vibes** and **'80 Neon Vibes - Fluor**.
 
-80 NEON VIBES
-
-![image](https://user-images.githubusercontent.com/8368079/173426225-cb892067-5731-4eda-ab36-cfc1ba811461.png)
-
 
 80 NEON VIBES - FLUOR
 
 ![image](https://user-images.githubusercontent.com/8368079/207324280-c3317d60-656c-405d-9014-f6f8bb2a6f52.png)
+
+
+80 NEON VIBES
+
+![image](https://user-images.githubusercontent.com/8368079/173426225-cb892067-5731-4eda-ab36-cfc1ba811461.png)
 
 __Vibrant colors and easy to see function and other principal stuffs in red neon color.__
 
